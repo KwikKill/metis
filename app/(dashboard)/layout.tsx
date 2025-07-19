@@ -18,7 +18,7 @@ export default function DashboardLayout({
         </div>
       </header>
       {/* Main content */}
-      <div className="container grid flex-1 gap-12 md:grid-cols-[200px_1fr]">
+      <div className="grid flex-1 gap-12 md:grid-cols-[200px_1fr]">
         <aside className="hidden w-[200px] flex-col md:flex border-r">
           <DashboardNav />
         </aside>
